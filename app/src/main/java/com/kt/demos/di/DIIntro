@@ -1,0 +1,20 @@
+//Dependency injection
+What is dependency - > one class is depend to another class is called dependency
+
+(Engine + Wheel) *-> Car (Here car is depend for engine and wheel so in other word Engine and wheel class is the car class dependency)
+
+
+
+what is injection - If you don't want to create object many time then use injection
+
+For eg. I have 10 car  classes and i need to apply engine and wheel class in car class so you dont want to again and again make object then you can use injection
+
+
+Dependency Injection Framework
+1. Dagger2  2. Koin 3. Dagger-Hilt
+
+How Dagger-Hilt works
+
+container - > MainActivity
+
+provider   -  consumer
